@@ -11,6 +11,20 @@ Incase you dont have python installed, you may install it from https://www.pytho
 
 ----------------------
 
+Running in Windows:
+
+Download the .zip file and run the programs. Ensure that the antivirus doesn't interfere, and incase antivirus shows any warnings, be assured, the program is completely safe.
+
+----------------------
+
+Running in Linux: 
+
+Download the Linux executables, right click and ensure that the files can be executed in the permissions.
+Open terminal in the folder where you downloaded, and type "./Encrypter" or "./Decryp..." accordingly
+
+-----------------------
+
+
 In a nutshell, this python script will encode (maybe encrypt) the text data you enter into it. It will save the encoded data into a filename of your choice (will add a JE2F extension to it coz looks cool B) ).
 
 The encrypted file (with the .JE2F ext) can be decrypted using the decrypter given alongside. In this, you need to enter the path of the encrypted file (with the extension obv, like anywhere else); and it will print the single sentence which was encrypted.
