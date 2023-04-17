@@ -3,11 +3,13 @@ JX Encrypter Gen2
 
 *_Basic description and usage instruction_*
 
-
+----------------------
 For running a py file:
 
 Open Command prompt / Terminal in the folder where the file is saved, and run 'python filename.py'.
 Incase you dont have python installed, you may install it from https://www.python.org/downloads/
+
+----------------------
 
 In a nutshell, this python script will encode (maybe encrypt) the text data you enter into it. It will save the encoded data into a filename of your choice (will add a JE2F extension to it coz looks cool B) ).
 
