@@ -4,6 +4,12 @@ JX Encrypter Gen2
 Basic description and usage instruction
 
 In a nutshell, this python script will encode (maybe encrypt) the text data you enter into it. It will save the encoded data into a filename of your choice (will add a JE2F extension to it coz looks cool B) ).
+
+For running a py file:
+
+Open Command prompt / Terminal in the folder where the file is saved, and run 'python filename.py'.
+Incase you dont have python installed, you may install it from https://www.python.org/downloads/
+
 The encrypted file (with the .JE2F ext) can be decrypted using the decrypter given alongside. In this, you need to enter the path of the encrypted file (with the extension obv, like anywhere else); and it will print the single sentence which was encrypted.
 For those curious, Gen1 was basically replacing each character with a 4 (or 5, cant rememeber) digit numerical code, so wasnt anything strong. This one however, essentially each file has its unique 'encryption key' which is hidden in the file itself, and can only be found by the algorithm.
 'Encryption Key' - By this I mean that each character has a unique code representing it, which varies with each execution, as you will see.
