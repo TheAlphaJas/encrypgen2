@@ -21,5 +21,7 @@ Now this was how to find the KEYS (the encoded forms) of each alphabet. To read 
 Now, you may have realised that the 6-7 unique numbers are like the key to the whole encryption, since they reveal the positions of all the characters. These are embedded at the start of the encrypted file in a unique format. Like if the numbers are 2 3 4 5 6 7 8. each will be converted to binary, and in the binary representation, each 0 will be replaced by a digit divisible by 2, and each 1 will be replaced by a digit not divisible by 2. So while decrypting, first the nummbers are converted to binary by taking modulus with 2, then binary representation is converted to decimal representation, and then all the products and sums will be made and checked to find the unique 63 positions.
 
 # Limitations
-Ofcourse this algorithm has its limitations. There should be a theoretical maximum value to the size of input data, and for bigger files, the computation time may be higher than usual, and ofcourse it doesnt support non conventional characters like .,_,! and so on. 
-These can be addressed in later releases.
+Ofcourse this algorithm has its limitations. 
+
+There should be a theoretical maximum value to the size of input data, and for bigger files, the computation time may be higher than usual, and ofcourse it doesnt support non conventional characters like .,_,! and so on. Also worth mentioning, currently it only supports one line of input, but that can probably be extended by making a file for each line in a multiple line text file, and somehow embedding those files together; OR; making a single encryption key for each file and creating a special key for the newline character, so that the Decrypter identifies the newline char and accordingly prints in a new line, although if the user explicitly enters '\n' in the file, this may cause issues.
+To be addressed in later releases
