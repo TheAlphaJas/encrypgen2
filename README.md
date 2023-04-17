@@ -1,7 +1,7 @@
 # Encrypter Gen 2
 JX Encrypter Gen2
 
-Basic description and usage instruction
+_Basic description and usage instruction_
 
 
 For running a py file:
