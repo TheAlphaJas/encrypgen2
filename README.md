@@ -1,8 +1,5 @@
 # Encrypter Gen 2
 JX Encrypter Gen2
-(why made?)
-
-Gen1 was too simple so I made this, much better and relatively tougher to crack without the logic obviously
 
 Basic description and usage instruction
 
@@ -25,3 +22,4 @@ Ofcourse this algorithm has its limitations.
 
 There should be a theoretical maximum value to the size of input data, and for bigger files, the computation time may be higher than usual, and ofcourse it doesnt support non conventional characters like .,_,! and so on. Also worth mentioning, currently it only supports one line of input, but that can probably be extended by making a file for each line in a multiple line text file, and somehow embedding those files together; OR; making a single encryption key for each file and creating a special key for the newline character, so that the Decrypter identifies the newline char and accordingly prints in a new line, although if the user explicitly enters '\n' in the file, this may cause issues.
 To be addressed in later releases
+
