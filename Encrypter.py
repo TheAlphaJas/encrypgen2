@@ -89,7 +89,12 @@ fnl=ftr1+fnl
 
 #pc.copy(fnl)
 #print(fnl)
-fname=input("Enter path and filename (without extension): ")
+fpath=input("Enter output folder path: ")
+fname=input("Enter output file name (without extension): ")
+if fpath[-1]=='/':
+    fname=fpath+fname
+else:
+    fname=fpath+"/"+fname
 f=open(fname+".JE2F",'wb')
 pickle.dump(fnl,f)
 f.close()
